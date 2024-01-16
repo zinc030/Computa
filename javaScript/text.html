@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>아이콘 전환</title>
+</head>
+<body>
+
+<i class="like fa-regular fa-heart fa-2x" onclick="like(this)"></i>
+<i class="like fa-regular fa-heart fa-2x" onclick="like(this)"></i>
+<!-- 필요에 따라 아이콘을 추가할 수 있습니다 -->
+
+<script>
+    function like(element) {
+        element.classList.toggle('fa-regular');
+        element.classList.toggle('fa-solid');
+    }
+</script>
+
+</body>
+</html>

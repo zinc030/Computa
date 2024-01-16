@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .비슷한상품 {
+        outline: 1px dashed black;
+
+        position: fixed;
+        left: 50%;
+        top: 620px;
+        transform: translate(-50%);
+        width: 1025px;
+        height: 125px;
+        font-size: 10px;
+      }
+
+      .비슷한상품_title {
+        outline: 1px solid black;
+        display: block;
+        margin-bottom: 10px;
+        font-size: 1.3rem;
+      }
+
+      .비슷한상품_img {
+        outline: 1px solid black;
+        display: flex; /* 플렉스 컨테이너로 설정하여 내부 아이템을 가로로 배열 */
+        justify-content: center; /* 가로로 중앙 정렬을 위한 속성 */
+        flex-wrap: wrap; /* 이미지가 너무 많을 때 다음 줄로 넘어가도록 설정 */
+      }
+
+      .비슷한상품_img_detail {
+        margin: 0 5px; /* 이미지 사이에 간격 추가 */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="비슷한상품">
+      <div>
+        <strong class="비슷한상품_title">비슷한 상품</strong>
+      </div>
+      <div class="비슷한상품_img">
+        <a href=""
+          ><img
+            src="./img/cpu_i7.jpg"
+            alt="제품이미지"
+            style="width: 100px"
+            class="비슷한상품_img_detail"
+        /></a>
+        <a href=""
+          ><img
+            src="./img/cpu_i7.jpg"
+            alt="제품이미지"
+            style="width: 100px"
+            class="비슷한상품_img_detail"
+        /></a>
+        <a href=""
+          ><img
+            src="./img/cpu_i7.jpg"
+            alt="제품이미지"
+            style="width: 100px"
+            class="비슷한상품_img_detail"
+        /></a>
+        <a href=""
+          ><img
+            src="./img/cpu_i7.jpg"
+            alt="제품이미지"
+            style="width: 100px"
+            class="비슷한상품_img_detail"
+        /></a>
+        <a href=""
+          ><img
+            src="./img/cpu_i7.jpg"
+            alt="제품이미지"
+            style="width: 100px"
+            class="비슷한상품_img_detail"
+        /></a>
+        <a href=""
+          ><img
+            src="./img/cpu_i7.jpg"
+            alt="제품이미지"
+            style="width: 100px"
+            class="비슷한상품_img_detail"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
